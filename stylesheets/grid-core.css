@@ -41,7 +41,7 @@ html, body {
   opacity: .1;
 }
 
-/* line 16, ../sass/grid-core.scss */
+/* line 23, ../sass/grid-core.scss */
 .d-grid {
   display: grid;
   grid-template: auto/repeat(12, 1fr);
@@ -49,142 +49,627 @@ html, body {
   grid-row-gap: 10px;
 }
 
-/* line 35, ../sass/grid-core.scss */
+/* line 42, ../sass/grid-core.scss */
 .grid-rows-1 {
   grid-template-rows: repeat(1, 1fr);
 }
 
-/* line 35, ../sass/grid-core.scss */
+/* line 42, ../sass/grid-core.scss */
 .grid-rows-2 {
   grid-template-rows: repeat(2, 1fr);
 }
 
-/* line 35, ../sass/grid-core.scss */
+/* line 42, ../sass/grid-core.scss */
 .grid-rows-3 {
   grid-template-rows: repeat(3, 1fr);
 }
 
-/* line 35, ../sass/grid-core.scss */
+/* line 42, ../sass/grid-core.scss */
 .grid-rows-4 {
   grid-template-rows: repeat(4, 1fr);
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-1 {
   grid-column-end: span 1;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-1 {
   grid-row-end: span 1;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-2 {
   grid-column-end: span 2;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-2 {
   grid-row-end: span 2;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-3 {
   grid-column-end: span 3;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-3 {
   grid-row-end: span 3;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-4 {
   grid-column-end: span 4;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-4 {
   grid-row-end: span 4;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-5 {
   grid-column-end: span 5;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-5 {
   grid-row-end: span 5;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-6 {
   grid-column-end: span 6;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-6 {
   grid-row-end: span 6;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-7 {
   grid-column-end: span 7;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-7 {
   grid-row-end: span 7;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-8 {
   grid-column-end: span 8;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-8 {
   grid-row-end: span 8;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-9 {
   grid-column-end: span 9;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-9 {
   grid-row-end: span 9;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-10 {
   grid-column-end: span 10;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-10 {
   grid-row-end: span 10;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-11 {
   grid-column-end: span 11;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-11 {
   grid-row-end: span 11;
 }
 
-/* line 43, ../sass/grid-core.scss */
+/* line 50, ../sass/grid-core.scss */
 .col-12 {
   grid-column-end: span 12;
 }
 
-/* line 46, ../sass/grid-core.scss */
+/* line 53, ../sass/grid-core.scss */
 .row-12 {
   grid-row-end: span 12;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-1 {
+    grid-column-end: span 1;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-1 {
+    grid-row-end: span 1;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-2 {
+    grid-column-end: span 2;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-2 {
+    grid-row-end: span 2;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-3 {
+    grid-column-end: span 3;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-3 {
+    grid-row-end: span 3;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-4 {
+    grid-column-end: span 4;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-4 {
+    grid-row-end: span 4;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-5 {
+    grid-column-end: span 5;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-5 {
+    grid-row-end: span 5;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-6 {
+    grid-column-end: span 6;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-6 {
+    grid-row-end: span 6;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-7 {
+    grid-column-end: span 7;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-7 {
+    grid-row-end: span 7;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-8 {
+    grid-column-end: span 8;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-8 {
+    grid-row-end: span 8;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-9 {
+    grid-column-end: span 9;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-9 {
+    grid-row-end: span 9;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-10 {
+    grid-column-end: span 10;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-10 {
+    grid-row-end: span 10;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-11 {
+    grid-column-end: span 11;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-11 {
+    grid-row-end: span 11;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-xs-12 {
+    grid-column-end: span 12;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-xs-12 {
+    grid-row-end: span 12;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-1 {
+    grid-column-end: span 1;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-1 {
+    grid-row-end: span 1;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-2 {
+    grid-column-end: span 2;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-2 {
+    grid-row-end: span 2;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-3 {
+    grid-column-end: span 3;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-3 {
+    grid-row-end: span 3;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-4 {
+    grid-column-end: span 4;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-4 {
+    grid-row-end: span 4;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-5 {
+    grid-column-end: span 5;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-5 {
+    grid-row-end: span 5;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-6 {
+    grid-column-end: span 6;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-6 {
+    grid-row-end: span 6;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-7 {
+    grid-column-end: span 7;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-7 {
+    grid-row-end: span 7;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-8 {
+    grid-column-end: span 8;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-8 {
+    grid-row-end: span 8;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-9 {
+    grid-column-end: span 9;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-9 {
+    grid-row-end: span 9;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-10 {
+    grid-column-end: span 10;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-10 {
+    grid-row-end: span 10;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-11 {
+    grid-column-end: span 11;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-11 {
+    grid-row-end: span 11;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-s-12 {
+    grid-column-end: span 12;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-s-12 {
+    grid-row-end: span 12;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-1 {
+    grid-column-end: span 1;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-1 {
+    grid-row-end: span 1;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-2 {
+    grid-column-end: span 2;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-2 {
+    grid-row-end: span 2;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-3 {
+    grid-column-end: span 3;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-3 {
+    grid-row-end: span 3;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-4 {
+    grid-column-end: span 4;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-4 {
+    grid-row-end: span 4;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-5 {
+    grid-column-end: span 5;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-5 {
+    grid-row-end: span 5;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-6 {
+    grid-column-end: span 6;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-6 {
+    grid-row-end: span 6;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-7 {
+    grid-column-end: span 7;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-7 {
+    grid-row-end: span 7;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-8 {
+    grid-column-end: span 8;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-8 {
+    grid-row-end: span 8;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-9 {
+    grid-column-end: span 9;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-9 {
+    grid-row-end: span 9;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-10 {
+    grid-column-end: span 10;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-10 {
+    grid-row-end: span 10;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-11 {
+    grid-column-end: span 11;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-11 {
+    grid-row-end: span 11;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-m-12 {
+    grid-column-end: span 12;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-m-12 {
+    grid-row-end: span 12;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-1 {
+    grid-column-end: span 1;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-1 {
+    grid-row-end: span 1;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-2 {
+    grid-column-end: span 2;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-2 {
+    grid-row-end: span 2;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-3 {
+    grid-column-end: span 3;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-3 {
+    grid-row-end: span 3;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-4 {
+    grid-column-end: span 4;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-4 {
+    grid-row-end: span 4;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-5 {
+    grid-column-end: span 5;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-5 {
+    grid-row-end: span 5;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-6 {
+    grid-column-end: span 6;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-6 {
+    grid-row-end: span 6;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-7 {
+    grid-column-end: span 7;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-7 {
+    grid-row-end: span 7;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-8 {
+    grid-column-end: span 8;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-8 {
+    grid-row-end: span 8;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-9 {
+    grid-column-end: span 9;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-9 {
+    grid-row-end: span 9;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-10 {
+    grid-column-end: span 10;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-10 {
+    grid-row-end: span 10;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-11 {
+    grid-column-end: span 11;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-11 {
+    grid-row-end: span 11;
+  }
+
+  /* line 61, ../sass/grid-core.scss */
+  .col-l-12 {
+    grid-column-end: span 12;
+  }
+
+  /* line 64, ../sass/grid-core.scss */
+  .row-l-12 {
+    grid-row-end: span 12;
+  }
 }

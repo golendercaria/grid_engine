@@ -5,6 +5,13 @@
 $grid_division:12;
 $row_division:4; // 0 or number
 $multiple_grid_division: false;
+$size_responsive: (
+	//name
+	"xs"		320px,
+	"s"			640px,
+	"m"			768px,
+	"l"			1024px
+);
 
 
 $gap-columns:10px;
@@ -47,3 +54,19 @@ $max-template-cols:$grid_division;
 		grid-row-end:span $i;
 	}
 }
+//FOR RESPONSIVE
+@each $value in $size_responsive {
+	@media screen and (max-width: nth($value, 2) ) {
+		@for $i from 1 through $grid_division {
+			.col-#{nth($value, 1)}-#{$i} {
+				grid-column-end:span $i;
+			}
+			.row-#{nth($value, 1)}-#{$i} {
+				grid-row-end:span $i;
+			}
+		}	
+	}
+}
+
+		
+		
