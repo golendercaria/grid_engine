@@ -41,12 +41,84 @@ html, body {
   opacity: .1;
 }
 
+/* line 32, ../sass/_panel.scss */
+.galerie {
+  padding: 0;
+  list-style-type: none;
+}
+/* line 35, ../sass/_panel.scss */
+.galerie li {
+  background: #b2b2b2;
+  display: block;
+  min-height: 50px;
+}
+
 /* line 23, ../sass/grid-core.scss */
 .d-grid {
   display: grid;
   grid-template: auto/repeat(12, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+/* line 33, ../sass/grid-core.scss */
+.grid-cols-12 {
+  grid-template-columns: repeat(12, 1fr);
 }
 
 /* line 42, ../sass/grid-core.scss */
@@ -79,6 +151,26 @@ html, body {
   grid-row-end: span 1;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-1 {
+  grid-column-end: 1;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-1 {
+  grid-row-end: 1;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-2 {
   grid-column-end: span 2;
@@ -87,6 +179,26 @@ html, body {
 /* line 53, ../sass/grid-core.scss */
 .row-2 {
   grid-row-end: span 2;
+}
+
+/* line 57, ../sass/grid-core.scss */
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-2 {
+  grid-row-end: 2;
 }
 
 /* line 50, ../sass/grid-core.scss */
@@ -99,6 +211,26 @@ html, body {
   grid-row-end: span 3;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-3 {
+  grid-row-start: 3;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-3 {
+  grid-row-end: 3;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-4 {
   grid-column-end: span 4;
@@ -107,6 +239,26 @@ html, body {
 /* line 53, ../sass/grid-core.scss */
 .row-4 {
   grid-row-end: span 4;
+}
+
+/* line 57, ../sass/grid-core.scss */
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-4 {
+  grid-row-end: 4;
 }
 
 /* line 50, ../sass/grid-core.scss */
@@ -119,6 +271,26 @@ html, body {
   grid-row-end: span 5;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-5 {
+  grid-column-start: 5;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-5 {
+  grid-row-end: 5;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-6 {
   grid-column-end: span 6;
@@ -127,6 +299,26 @@ html, body {
 /* line 53, ../sass/grid-core.scss */
 .row-6 {
   grid-row-end: span 6;
+}
+
+/* line 57, ../sass/grid-core.scss */
+.col-start-6 {
+  grid-column-start: 6;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-6 {
+  grid-column-end: 6;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-6 {
+  grid-row-start: 6;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-6 {
+  grid-row-end: 6;
 }
 
 /* line 50, ../sass/grid-core.scss */
@@ -139,6 +331,26 @@ html, body {
   grid-row-end: span 7;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-7 {
+  grid-column-start: 7;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-7 {
+  grid-column-end: 7;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-7 {
+  grid-row-start: 7;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-7 {
+  grid-row-end: 7;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-8 {
   grid-column-end: span 8;
@@ -147,6 +359,26 @@ html, body {
 /* line 53, ../sass/grid-core.scss */
 .row-8 {
   grid-row-end: span 8;
+}
+
+/* line 57, ../sass/grid-core.scss */
+.col-start-8 {
+  grid-column-start: 8;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-8 {
+  grid-column-end: 8;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-8 {
+  grid-row-start: 8;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-8 {
+  grid-row-end: 8;
 }
 
 /* line 50, ../sass/grid-core.scss */
@@ -159,6 +391,26 @@ html, body {
   grid-row-end: span 9;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-9 {
+  grid-column-start: 9;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-9 {
+  grid-column-end: 9;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-9 {
+  grid-row-start: 9;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-9 {
+  grid-row-end: 9;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-10 {
   grid-column-end: span 10;
@@ -167,6 +419,26 @@ html, body {
 /* line 53, ../sass/grid-core.scss */
 .row-10 {
   grid-row-end: span 10;
+}
+
+/* line 57, ../sass/grid-core.scss */
+.col-start-10 {
+  grid-column-start: 10;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-10 {
+  grid-column-end: 10;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-10 {
+  grid-row-start: 10;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-10 {
+  grid-row-end: 10;
 }
 
 /* line 50, ../sass/grid-core.scss */
@@ -179,6 +451,26 @@ html, body {
   grid-row-end: span 11;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-11 {
+  grid-column-start: 11;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-11 {
+  grid-column-end: 11;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-11 {
+  grid-row-start: 11;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-11 {
+  grid-row-end: 11;
+}
+
 /* line 50, ../sass/grid-core.scss */
 .col-12 {
   grid-column-end: span 12;
@@ -189,487 +481,1481 @@ html, body {
   grid-row-end: span 12;
 }
 
+/* line 57, ../sass/grid-core.scss */
+.col-start-12 {
+  grid-column-start: 12;
+}
+
+/* line 60, ../sass/grid-core.scss */
+.col-end-12 {
+  grid-column-end: 12;
+}
+
+/* line 63, ../sass/grid-core.scss */
+.row-start-12 {
+  grid-row-start: 12;
+}
+
+/* line 66, ../sass/grid-core.scss */
+.row-end-12 {
+  grid-row-end: 12;
+}
+
 @media screen and (max-width: 320px) {
-  /* line 61, ../sass/grid-core.scss */
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-1 {
     grid-column-end: span 1;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-1 {
     grid-row-end: span 1;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-1 {
+    grid-column-start: 1;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-1 {
+    grid-column-end: 1;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-1 {
+    grid-row-start: 1;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-1 {
+    grid-row-end: 1;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-2 {
     grid-column-end: span 2;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-2 {
     grid-row-end: span 2;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-2 {
+    grid-column-start: 2;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-2 {
+    grid-column-end: 2;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-2 {
+    grid-row-start: 2;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-2 {
+    grid-row-end: 2;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-3 {
     grid-column-end: span 3;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-3 {
     grid-row-end: span 3;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-3 {
+    grid-column-start: 3;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-3 {
+    grid-column-end: 3;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-3 {
+    grid-row-start: 3;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-3 {
+    grid-row-end: 3;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-4 {
     grid-column-end: span 4;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-4 {
     grid-row-end: span 4;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-4 {
+    grid-column-start: 4;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-4 {
+    grid-column-end: 4;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-4 {
+    grid-row-start: 4;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-4 {
+    grid-row-end: 4;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-5 {
     grid-column-end: span 5;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-5 {
     grid-row-end: span 5;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-5 {
+    grid-column-start: 5;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-5 {
+    grid-column-end: 5;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-5 {
+    grid-row-start: 5;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-5 {
+    grid-row-end: 5;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-6 {
     grid-column-end: span 6;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-6 {
     grid-row-end: span 6;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-6 {
+    grid-column-start: 6;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-6 {
+    grid-column-end: 6;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-6 {
+    grid-row-start: 6;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-6 {
+    grid-row-end: 6;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-7 {
     grid-column-end: span 7;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-7 {
     grid-row-end: span 7;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-7 {
+    grid-column-start: 7;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-7 {
+    grid-column-end: 7;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-7 {
+    grid-row-start: 7;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-7 {
+    grid-row-end: 7;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-8 {
     grid-column-end: span 8;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-8 {
     grid-row-end: span 8;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-8 {
+    grid-column-start: 8;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-8 {
+    grid-column-end: 8;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-8 {
+    grid-row-start: 8;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-8 {
+    grid-row-end: 8;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-9 {
     grid-column-end: span 9;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-9 {
     grid-row-end: span 9;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-9 {
+    grid-column-start: 9;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-9 {
+    grid-column-end: 9;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-9 {
+    grid-row-start: 9;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-9 {
+    grid-row-end: 9;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-10 {
     grid-column-end: span 10;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-10 {
     grid-row-end: span 10;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-10 {
+    grid-column-start: 10;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-10 {
+    grid-column-end: 10;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-10 {
+    grid-row-start: 10;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-10 {
+    grid-row-end: 10;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-11 {
     grid-column-end: span 11;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-11 {
     grid-row-end: span 11;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-11 {
+    grid-column-start: 11;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-11 {
+    grid-column-end: 11;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-11 {
+    grid-row-start: 11;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-11 {
+    grid-row-end: 11;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-xs-12 {
     grid-column-end: span 12;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-xs-12 {
     grid-row-end: span 12;
   }
+
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-xs-12 {
+    grid-column-start: 12;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-xs-12 {
+    grid-column-end: 12;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-xs-12 {
+    grid-row-start: 12;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-xs-12 {
+    grid-row-end: 12;
+  }
 }
 @media screen and (max-width: 640px) {
-  /* line 61, ../sass/grid-core.scss */
+  /* line 74, ../sass/grid-core.scss */
   .col-s-1 {
     grid-column-end: span 1;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-1 {
     grid-row-end: span 1;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-1 {
+    grid-column-start: 1;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-1 {
+    grid-column-end: 1;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-1 {
+    grid-row-start: 1;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-1 {
+    grid-row-end: 1;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-2 {
     grid-column-end: span 2;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-2 {
     grid-row-end: span 2;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-2 {
+    grid-column-start: 2;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-2 {
+    grid-column-end: 2;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-2 {
+    grid-row-start: 2;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-2 {
+    grid-row-end: 2;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-3 {
     grid-column-end: span 3;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-3 {
     grid-row-end: span 3;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-3 {
+    grid-column-start: 3;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-3 {
+    grid-column-end: 3;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-3 {
+    grid-row-start: 3;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-3 {
+    grid-row-end: 3;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-4 {
     grid-column-end: span 4;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-4 {
     grid-row-end: span 4;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-4 {
+    grid-column-start: 4;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-4 {
+    grid-column-end: 4;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-4 {
+    grid-row-start: 4;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-4 {
+    grid-row-end: 4;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-5 {
     grid-column-end: span 5;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-5 {
     grid-row-end: span 5;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-5 {
+    grid-column-start: 5;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-5 {
+    grid-column-end: 5;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-5 {
+    grid-row-start: 5;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-5 {
+    grid-row-end: 5;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-6 {
     grid-column-end: span 6;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-6 {
     grid-row-end: span 6;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-6 {
+    grid-column-start: 6;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-6 {
+    grid-column-end: 6;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-6 {
+    grid-row-start: 6;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-6 {
+    grid-row-end: 6;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-7 {
     grid-column-end: span 7;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-7 {
     grid-row-end: span 7;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-7 {
+    grid-column-start: 7;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-7 {
+    grid-column-end: 7;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-7 {
+    grid-row-start: 7;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-7 {
+    grid-row-end: 7;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-8 {
     grid-column-end: span 8;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-8 {
     grid-row-end: span 8;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-8 {
+    grid-column-start: 8;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-8 {
+    grid-column-end: 8;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-8 {
+    grid-row-start: 8;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-8 {
+    grid-row-end: 8;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-9 {
     grid-column-end: span 9;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-9 {
     grid-row-end: span 9;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-9 {
+    grid-column-start: 9;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-9 {
+    grid-column-end: 9;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-9 {
+    grid-row-start: 9;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-9 {
+    grid-row-end: 9;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-10 {
     grid-column-end: span 10;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-10 {
     grid-row-end: span 10;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-10 {
+    grid-column-start: 10;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-10 {
+    grid-column-end: 10;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-10 {
+    grid-row-start: 10;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-10 {
+    grid-row-end: 10;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-11 {
     grid-column-end: span 11;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-11 {
     grid-row-end: span 11;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-11 {
+    grid-column-start: 11;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-11 {
+    grid-column-end: 11;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-11 {
+    grid-row-start: 11;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-11 {
+    grid-row-end: 11;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-s-12 {
     grid-column-end: span 12;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-s-12 {
     grid-row-end: span 12;
   }
+
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-s-12 {
+    grid-column-start: 12;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-s-12 {
+    grid-column-end: 12;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-s-12 {
+    grid-row-start: 12;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-s-12 {
+    grid-row-end: 12;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 61, ../sass/grid-core.scss */
+  /* line 74, ../sass/grid-core.scss */
   .col-m-1 {
     grid-column-end: span 1;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-1 {
     grid-row-end: span 1;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-1 {
+    grid-column-start: 1;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-1 {
+    grid-column-end: 1;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-1 {
+    grid-row-start: 1;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-1 {
+    grid-row-end: 1;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-2 {
     grid-column-end: span 2;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-2 {
     grid-row-end: span 2;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-2 {
+    grid-column-start: 2;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-2 {
+    grid-column-end: 2;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-2 {
+    grid-row-start: 2;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-2 {
+    grid-row-end: 2;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-3 {
     grid-column-end: span 3;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-3 {
     grid-row-end: span 3;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-3 {
+    grid-column-start: 3;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-3 {
+    grid-column-end: 3;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-3 {
+    grid-row-start: 3;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-3 {
+    grid-row-end: 3;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-4 {
     grid-column-end: span 4;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-4 {
     grid-row-end: span 4;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-4 {
+    grid-column-start: 4;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-4 {
+    grid-column-end: 4;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-4 {
+    grid-row-start: 4;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-4 {
+    grid-row-end: 4;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-5 {
     grid-column-end: span 5;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-5 {
     grid-row-end: span 5;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-5 {
+    grid-column-start: 5;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-5 {
+    grid-column-end: 5;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-5 {
+    grid-row-start: 5;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-5 {
+    grid-row-end: 5;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-6 {
     grid-column-end: span 6;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-6 {
     grid-row-end: span 6;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-6 {
+    grid-column-start: 6;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-6 {
+    grid-column-end: 6;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-6 {
+    grid-row-start: 6;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-6 {
+    grid-row-end: 6;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-7 {
     grid-column-end: span 7;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-7 {
     grid-row-end: span 7;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-7 {
+    grid-column-start: 7;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-7 {
+    grid-column-end: 7;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-7 {
+    grid-row-start: 7;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-7 {
+    grid-row-end: 7;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-8 {
     grid-column-end: span 8;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-8 {
     grid-row-end: span 8;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-8 {
+    grid-column-start: 8;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-8 {
+    grid-column-end: 8;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-8 {
+    grid-row-start: 8;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-8 {
+    grid-row-end: 8;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-9 {
     grid-column-end: span 9;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-9 {
     grid-row-end: span 9;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-9 {
+    grid-column-start: 9;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-9 {
+    grid-column-end: 9;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-9 {
+    grid-row-start: 9;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-9 {
+    grid-row-end: 9;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-10 {
     grid-column-end: span 10;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-10 {
     grid-row-end: span 10;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-10 {
+    grid-column-start: 10;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-10 {
+    grid-column-end: 10;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-10 {
+    grid-row-start: 10;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-10 {
+    grid-row-end: 10;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-11 {
     grid-column-end: span 11;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-11 {
     grid-row-end: span 11;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-11 {
+    grid-column-start: 11;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-11 {
+    grid-column-end: 11;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-11 {
+    grid-row-start: 11;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-11 {
+    grid-row-end: 11;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-m-12 {
     grid-column-end: span 12;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-m-12 {
     grid-row-end: span 12;
   }
+
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-m-12 {
+    grid-column-start: 12;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-m-12 {
+    grid-column-end: 12;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-m-12 {
+    grid-row-start: 12;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-m-12 {
+    grid-row-end: 12;
+  }
 }
 @media screen and (max-width: 1024px) {
-  /* line 61, ../sass/grid-core.scss */
+  /* line 74, ../sass/grid-core.scss */
   .col-l-1 {
     grid-column-end: span 1;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-1 {
     grid-row-end: span 1;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-1 {
+    grid-column-start: 1;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-1 {
+    grid-column-end: 1;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-1 {
+    grid-row-start: 1;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-1 {
+    grid-row-end: 1;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-2 {
     grid-column-end: span 2;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-2 {
     grid-row-end: span 2;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-2 {
+    grid-column-start: 2;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-2 {
+    grid-column-end: 2;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-2 {
+    grid-row-start: 2;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-2 {
+    grid-row-end: 2;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-3 {
     grid-column-end: span 3;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-3 {
     grid-row-end: span 3;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-3 {
+    grid-column-start: 3;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-3 {
+    grid-column-end: 3;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-3 {
+    grid-row-start: 3;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-3 {
+    grid-row-end: 3;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-4 {
     grid-column-end: span 4;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-4 {
     grid-row-end: span 4;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-4 {
+    grid-column-start: 4;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-4 {
+    grid-column-end: 4;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-4 {
+    grid-row-start: 4;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-4 {
+    grid-row-end: 4;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-5 {
     grid-column-end: span 5;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-5 {
     grid-row-end: span 5;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-5 {
+    grid-column-start: 5;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-5 {
+    grid-column-end: 5;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-5 {
+    grid-row-start: 5;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-5 {
+    grid-row-end: 5;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-6 {
     grid-column-end: span 6;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-6 {
     grid-row-end: span 6;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-6 {
+    grid-column-start: 6;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-6 {
+    grid-column-end: 6;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-6 {
+    grid-row-start: 6;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-6 {
+    grid-row-end: 6;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-7 {
     grid-column-end: span 7;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-7 {
     grid-row-end: span 7;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-7 {
+    grid-column-start: 7;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-7 {
+    grid-column-end: 7;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-7 {
+    grid-row-start: 7;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-7 {
+    grid-row-end: 7;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-8 {
     grid-column-end: span 8;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-8 {
     grid-row-end: span 8;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-8 {
+    grid-column-start: 8;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-8 {
+    grid-column-end: 8;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-8 {
+    grid-row-start: 8;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-8 {
+    grid-row-end: 8;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-9 {
     grid-column-end: span 9;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-9 {
     grid-row-end: span 9;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-9 {
+    grid-column-start: 9;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-9 {
+    grid-column-end: 9;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-9 {
+    grid-row-start: 9;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-9 {
+    grid-row-end: 9;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-10 {
     grid-column-end: span 10;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-10 {
     grid-row-end: span 10;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-10 {
+    grid-column-start: 10;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-10 {
+    grid-column-end: 10;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-10 {
+    grid-row-start: 10;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-10 {
+    grid-row-end: 10;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-11 {
     grid-column-end: span 11;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-11 {
     grid-row-end: span 11;
   }
 
-  /* line 61, ../sass/grid-core.scss */
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-11 {
+    grid-column-start: 11;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-11 {
+    grid-column-end: 11;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-11 {
+    grid-row-start: 11;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-11 {
+    grid-row-end: 11;
+  }
+
+  /* line 74, ../sass/grid-core.scss */
   .col-l-12 {
     grid-column-end: span 12;
   }
 
-  /* line 64, ../sass/grid-core.scss */
+  /* line 77, ../sass/grid-core.scss */
   .row-l-12 {
     grid-row-end: span 12;
   }
+
+  /* line 81, ../sass/grid-core.scss */
+  .col-start-l-12 {
+    grid-column-start: 12;
+  }
+
+  /* line 84, ../sass/grid-core.scss */
+  .col-end-l-12 {
+    grid-column-end: 12;
+  }
+
+  /* line 87, ../sass/grid-core.scss */
+  .row-start-l-12 {
+    grid-row-start: 12;
+  }
+
+  /* line 90, ../sass/grid-core.scss */
+  .row-end-l-12 {
+    grid-row-end: 12;
+  }
+}
+/* line 98, ../sass/grid-core.scss */
+.flow-row {
+  grid-auto-flow: row;
+}
+
+/* line 101, ../sass/grid-core.scss */
+.flow-col {
+  grid-auto-flow: column;
+}
+
+/* line 104, ../sass/grid-core.scss */
+.flow-dense {
+  grid-auto-flow: dense;
 }

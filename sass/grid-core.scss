@@ -4,7 +4,7 @@
 
 $grid_division:12;
 $row_division:4; // 0 or number
-$multiple_grid_division: false;
+$multiple_grid_division: true;
 $size_responsive: (
 	//name
 	"xs"		320px,
@@ -53,6 +53,19 @@ $max-template-cols:$grid_division;
 	.row-#{$i} {
 		grid-row-end:span $i;
 	}
+	//specific position
+	.col-start-#{$i} {
+		grid-column-start: #{$i};
+	}
+	.col-end-#{$i} {
+		grid-column-end: #{$i};
+	}
+	.row-start-#{$i} {
+		grid-row-start: #{$i};
+	}
+	.row-end-#{$i} {
+		grid-row-end: #{$i};
+	}
 }
 //FOR RESPONSIVE
 @each $value in $size_responsive {
@@ -64,8 +77,32 @@ $max-template-cols:$grid_division;
 			.row-#{nth($value, 1)}-#{$i} {
 				grid-row-end:span $i;
 			}
+			//specific position
+			.col-start-#{nth($value, 1)}-#{$i} {
+				grid-column-start: #{$i};
+			}
+			.col-end-#{nth($value, 1)}-#{$i} {
+				grid-column-end: #{$i};
+			}
+			.row-start-#{nth($value, 1)}-#{$i} {
+				grid-row-start: #{$i};
+			}
+			.row-end-#{nth($value, 1)}-#{$i} {
+				grid-row-end: #{$i};
+			}
 		}	
 	}
+}
+
+//FLOW
+.flow-row{
+	grid-auto-flow: row;
+}
+.flow-col{
+	grid-auto-flow: column;
+}
+.flow-dense{
+	grid-auto-flow: dense;
 }
 
 		

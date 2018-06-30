@@ -29,3 +29,12 @@ html, body{
 		opacity: .1;
 	}
 }
+.galerie{
+	padding: 0;
+	list-style-type: none;
+	li{
+		background: #b2b2b2;
+		display: block;
+		min-height: 50px;
+	}
+}
