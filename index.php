@@ -10,6 +10,16 @@
 	
 	<div class="d-grid grid-cols-12">
 		<div class="panel yellow col-12"></div>
+
+		<div class="panel yellow col-12 d-grid grid-cols-12">
+			<div class="logo col-3 justify-self-start align-self-center"></div>
+			<ul class="nav col-9 panel">
+				<li>Portfolio</li>
+				<li>Agence</li>
+				<li>Qui sommes nous ?</li>
+				<li>Contact</li>
+			</ul>
+		</div>
 		
 		<div class="panel orange col-6 col-s-12"></div>
 		<div class="panel blue   col-6 col-s-12"></div>
